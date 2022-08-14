@@ -40,18 +40,18 @@ package main // import "robots-parser"
 
 ### TYPES
 
-type Agent struct {
-        Name       string
-        Allowed    []string
-        Disallowed []string
-}
+    type Agent struct {
+            Name       string
+            Allowed    []string
+            Disallowed []string
+    }
     An Agent lists the Allowed and Disallowed directives that apply to a user
     agent
 
-type RobotsFile struct {
-        Rules    []Agent
-        Sitemaps []string
-}
+    type RobotsFile struct {
+            Rules    []Agent
+            Sitemaps []string
+    }
     A RobotsFile contains information about a robots.txt file
 
 ## License
